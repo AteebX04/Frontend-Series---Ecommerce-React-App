@@ -1,0 +1,186 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    padding:16px;
+    box-shadow: 0 1px 3px -2px black;
+}
+.nav-logo{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.nav-logo p{
+    color:#171717;
+    font-size :38px;
+    font-weight: 600;
+}
+.nav-menu{
+    display:flex;
+    align-items: center;
+    list-style: none;
+    gap:50px;
+    color:#626262;
+    font-size:20px;
+    font-weight: 500;
+}
+.nav-menu li{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:3px;
+    cursor :pointer;
+}
+.nav-menu hr{
+    border:none;
+    width:80%;
+    height:3px;
+    border-radius:10px;
+    background-color: #ff4141;
+}
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap:45px;
+}
+.nav-login-cart button{
+    width:157px;
+    height:58px;
+    outline:none;
+    border:1px solid #7a7a7a;
+    border-radius: 75px;
+    font-size: 20px;
+    font-weight: 500;
+    background: white;
+    cursor:pointer;
+}
+.nav-login-cart button:active{
+    background:#f3f3f3;
+}
+.nav-cart-count{
+    width:22px;
+    height:22px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-35px;
+    margin-left:-55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+}
+
+/* Hero Component CSS */
+
+.hero{
+    height:100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display:flex;
+}
+.hero-left{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    padding-left:180px;
+    line-height:1.1;
+}
+.hero-left h2{
+    color:#090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+.hero-left p{
+    color:#171717;
+    font-size: 100px;
+    font-weight: 700;
+}
+.hero-hand-icon{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.hero-hand-icon img{
+    width:105px;
+}
+.hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    width:310px;
+    height:70px;
+    border-radius: 75px;
+    margin-top:30px;
+    background:#ff4141 ;
+    color:white;
+    font-size:22px;
+    font-weight: 500;
+}
+.hero-right{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Item Component CSS */
+
+.item{
+    width:350px;
+}
+.item p{
+    margin:6px 0px;
+}
+.item-prices{
+    display: flex;
+    gap:20px;
+}
+.item-prices-new{
+    color:#374151;
+    font-size:18px;
+    font-weight: 600;
+}
+.item-prices-new{
+    color:#8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition:0.6s;
+}
+
+
+/* Popular Component CSS */
+
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    height:90vh;
+}
+.popular h1{
+    color:#171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+.popular hr{
+    width:200px;
+    height:6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.popular-item{
+    display:flex;
+    margin-top:50px;
+    gap:30px;
+    
+}
