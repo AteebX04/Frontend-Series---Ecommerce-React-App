@@ -8,9 +8,9 @@ const ShopContextProvider = (props) => {
     const contextValue = {all_product};
 
     return(
-        <ShopContextProvider value={contextValue}>
+        <ShopContext.Provider value={contextValue}>
             {props.children}
-        </ShopContextProvider>
+        </ShopContext.Provider>
     )
 }
 

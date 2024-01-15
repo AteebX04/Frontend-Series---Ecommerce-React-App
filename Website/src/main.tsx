@@ -2,13 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
-// import ShopContextProvider from "./Components/ShopContext"
+import ShopContextProvider from "./Components/ShopContext"
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    {/* <ShopContextProvider>
+    <ShopContextProvider>
       <App />
-    </ShopContextProvider> */}
-    <App />
+    </ShopContextProvider>
+
   </React.StrictMode>,
 )
