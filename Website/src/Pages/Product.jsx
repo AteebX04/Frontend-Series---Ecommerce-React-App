@@ -5,6 +5,7 @@ import all_product from '../assets/all_product';
 import Breadcrums from '../Components/Breadcrums';
 import ProductDisplay from '../Components/ProductDisplay';
 import DescriptionBox from '../Components/DescriptionBox';
+import RelatedProducts from '../Components/RelatedProducts';
 
 
 export default function Product(){
@@ -16,6 +17,7 @@ export default function Product(){
             <Breadcrums product={product} />
             <ProductDisplay product={product} />
             <DescriptionBox />
+            <RelatedProducts />
         </div>
     )
 }
