@@ -6,6 +6,7 @@ body{
     justify-content: space-around;
     padding:16px;
     box-shadow: 0 1px 3px -2px black;
+    align-items: center;
 }
 .nav-logo{
     display:flex;
@@ -135,8 +136,30 @@ body{
         rotate:-90deg;
         transition:0.5s;
     }
+    .nav-menu{
+        display: none;
+        height:80px;
+        width:100%;
+        position: absolute;
+        background-color: white;
+        justify-content: center;
+        top:50px;
+    }
+    .nav-menu-visible{
+        display: flex;
+    }
+    .nav-dropdown .open{
+        transform:rotate(90deg);
+    }
 }
+@media(max-width:500px){
+    .navbar{
+        padding:8px 0px;
+        gap:0;
+    }
 
+
+}
 /* Hero Component CSS */
 
 .hero{
