@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    gap:50px;
+}
+.header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:100px;
+}
